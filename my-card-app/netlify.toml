@@ -1,0 +1,9 @@
+[build]
+  publish = "build" # This is the directory that Netlify will serve after the build is done
+  command = "npm run build" # This is the command to build your project
+
+# Set up basic redirects (optional, if you have specific paths)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
