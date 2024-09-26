@@ -8,8 +8,8 @@
 # testing
 /coverage
 
-# production
-/build
+# production needed for netlify
+# /build
 
 # misc
 .DS_Store
