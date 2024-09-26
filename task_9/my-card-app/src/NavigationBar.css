@@ -1,0 +1,53 @@
+/* Navbar container */
+.navbar-div {
+    background-color: white;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+    color: #879676;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+/* Center navbar links using Flexbox*/
+.navbar-links {
+    display: flex;
+    justify-content: center; 
+}
+
+/* Nav Bar LInks */
+.link {
+    color: #879676;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Non Link content */
+.navbar-content {
+    text-align: center;
+}
+
+.navbar-content p {
+    font-size: 16px;}
+
+.navbar-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #879676;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-content button:hover {
+    background-color: #6e7c54;
+}

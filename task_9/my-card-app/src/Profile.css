@@ -1,0 +1,41 @@
+.profile-container {
+  position: relative;
+  top: 100px; 
+  padding-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  width: 30%;
+  padding: 12px;
+  margin: -10px;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  color: white;
+  background-color: #82a1ac;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input {
+  width: 520px;
+  padding: 20px;
+  margin: 0px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.profile-button {
+  background-color: #82a1ac;
+}
+
+button:hover {
+  background-color: #a9abab;
+}

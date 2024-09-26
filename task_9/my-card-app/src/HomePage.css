@@ -1,0 +1,26 @@
+.question-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.question-card h3 {
+  margin-top: 0;
+}
+
+.expanded-content {
+  margin-top: 10px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  margin-bottom: 20px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
