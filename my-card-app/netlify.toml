@@ -1,10 +1,4 @@
 [build]
-  base = "my-card-app" # Only if the app is in a subdirectory
-  publish = "my-card-app/build"
+  base = "my-card-app"
+  publish = "build"
   command = "npm run build"
-
-# Set up basic redirects (optional, if you have specific paths)
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
