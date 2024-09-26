@@ -1,6 +1,7 @@
 [build]
-  publish = "build" # Directory Netlify will serve after the build is done
-  command = "npm run build" # Command to build your project
+  base = "my-card-app" # Only if the app is in a subdirectory
+  publish = "my-card-app/build"
+  command = "npm run build"
 
 # Set up basic redirects (optional, if you have specific paths)
 [[redirects]]
