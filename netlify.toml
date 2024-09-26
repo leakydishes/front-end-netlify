@@ -1,4 +1,3 @@
 [build]
-  base = "my-card-app"
   publish = "build"
   command = "npm run build"
